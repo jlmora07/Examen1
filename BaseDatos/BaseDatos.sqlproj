@@ -67,4 +67,7 @@
     <Build Include="dbo\StoreProcedures\InstitucionesActualizar.sql" />
     <Build Include="dbo\StoreProcedures\InstitucionObtener.sql" />
   </ItemGroup>
+  <ItemGroup>
+    <None Include="BaseDatos.publish.xml" />
+  </ItemGroup>
 </Project>
