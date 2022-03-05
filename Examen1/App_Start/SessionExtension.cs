@@ -4,7 +4,7 @@ using System.Linq;
 using System.Text.Json;
 using System.Threading.Tasks;
 
-namespace WebApp
+namespace Web_Examen1
 {
     public static class SessionExtension
     {

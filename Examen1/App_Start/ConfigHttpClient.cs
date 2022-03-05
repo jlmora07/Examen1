@@ -5,7 +5,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApp
+namespace Web_Examen1
 {
     public static class ConfigHttpClient
     {

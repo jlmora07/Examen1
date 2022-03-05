@@ -6,7 +6,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WBL;
 
-namespace WebApp.Pages.Institucion
+namespace Web_Examen1.Pages.Institucion
 {
     public class EditModel : PageModel
     {

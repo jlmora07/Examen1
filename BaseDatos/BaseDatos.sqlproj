@@ -62,9 +62,9 @@
   </ItemGroup>
   <ItemGroup>
     <Build Include="dbo\Tablas\Institucion.sql" />
-    <Build Include="dbo\StoreProcedures\InstitucionesInsertar.sql" />
-    <Build Include="dbo\StoreProcedures\InstitucionesEliminar.sql" />
-    <Build Include="dbo\StoreProcedures\InstitucionesActualizar.sql" />
+    <Build Include="dbo\StoreProcedures\InstitucionInsertar.sql" />
+    <Build Include="dbo\StoreProcedures\InstitucionEliminar.sql" />
+    <Build Include="dbo\StoreProcedures\InstitucionActualizar.sql" />
     <Build Include="dbo\StoreProcedures\InstitucionObtener.sql" />
   </ItemGroup>
   <ItemGroup>

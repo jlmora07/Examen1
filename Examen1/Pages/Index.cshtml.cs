@@ -6,7 +6,7 @@ using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
 
-namespace WebApp.Pages
+namespace Web_Examen1.Pages
 {
     public class IndexModel : PageModel
     {

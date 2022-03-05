@@ -7,7 +7,7 @@ using Microsoft.AspNetCore.Mvc;
 using Microsoft.AspNetCore.Mvc.RazorPages;
 using WBL;
 
-namespace WebApp.Pages.Institucion
+namespace Web_Examen1.Pages.Institucion
 {
     public class GridModel : PageModel
     {
@@ -51,8 +51,7 @@ namespace WebApp.Pages.Institucion
 
             try
             {
-                var result = await institucion.DELETE( new() 
-                { Id_Institucion=id});
+                var result = await institucion.DELETE( new(){ Id_Institucion=id});
 
                 if (result.CodError!=0)
                 {

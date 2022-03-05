@@ -1,7 +1,7 @@
 ﻿namespace App{
 
     export interface DBEntity {
-        CodeError?: number;
+        CodError?: number;
         MsgError: string;
     }
 

@@ -4,7 +4,7 @@ using System.Linq;
 using System.Net.Http;
 using System.Threading.Tasks;
 
-namespace WebApp
+namespace Web_Examen1
 {
     public static class ExtensionHttp
     {

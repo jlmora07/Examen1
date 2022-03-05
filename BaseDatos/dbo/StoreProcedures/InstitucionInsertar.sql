@@ -4,7 +4,7 @@
 -- Description:	<Procedimiento para insertar registros de Instituciones>
 -- =============================================
 
-CREATE PROCEDURE [dbo].[InstitucionesInsertar]
+CREATE PROCEDURE [dbo].[InstitucionInsertar]
 	@Codigo varchar(250),
 	@Nombre varchar(250),
 	@Telefono varchar(250),

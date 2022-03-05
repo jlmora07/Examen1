@@ -5,7 +5,7 @@
 -- =============================================
 
 
-CREATE PROCEDURE [dbo].[InstitucionesActualizar]
+CREATE PROCEDURE [dbo].[InstitucionActualizar]
 	@Id_Institucion int,
 	@Codigo varchar(250),
 	@Nombre varchar(250),

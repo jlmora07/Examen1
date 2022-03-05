@@ -5,8 +5,8 @@
 -- =============================================
 
 
-CREATE PROCEDURE [dbo].[InstitucionesEliminar]
-	@IdInstitucion INT
+CREATE PROCEDURE [dbo].[InstitucionEliminar]
+	@Id_Institucion INT
 AS
 BEGIN
 	SET NOCOUNT ON
@@ -18,7 +18,7 @@ BEGIN
 	DELETE FROM dbo.Institucion
 
 	WHERE
-		Id_Institucion = @IdInstitucion
+		Id_Institucion = @Id_Institucion
 	
 	COMMIT TRANSACTION TRASA
 		SELECT 
